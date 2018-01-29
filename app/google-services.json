@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "375871867012",
+    "firebase_url": "https://gsparc-a5bbf.firebaseio.com",
+    "project_id": "gsparc-a5bbf",
+    "storage_bucket": "gsparc-a5bbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375871867012:android:e49587588379e14b",
+        "android_client_info": {
+          "package_name": "com.io.gsq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375871867012-bugn37a45g6t2p4o5as9k0n9qho82jd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.io.gsq",
+            "certificate_hash": "9dd60375d34fe7eff3c8464c4c94250f8df8a8c4"
+          }
+        },
+        {
+          "client_id": "375871867012-4ol7v0898r73krdk0bkklo70ricvf54j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjWeqWkQmzW3cV_HTZNqxIbYGz18Ba1oU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375871867012-4ol7v0898r73krdk0bkklo70ricvf54j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

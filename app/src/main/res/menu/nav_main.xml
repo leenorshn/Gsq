@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item android:id="@+id/produit"
+        android:title="produit"
+        android:icon="@drawable/ic_shop_black_24dp"/>
+    <item android:id="@+id/favorite"
+        android:title="notication"
+        android:icon="@drawable/ic_notifications_black_24dp"/>
+    <item android:id="@+id/baskect"
+        android:title="mes produit"
+        android:icon="@drawable/ic_shopping_basket_black_24dp"/>
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+    <EditText
+        android:hint="nom produit"
+        android:id="@+id/nom_produit_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="prix en $"
+            android:layout_weight="1"
+            android:id="@+id/price_dialog"
+            android:layout_width="150dp"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/quantite_dialog"
+            android:layout_weight="1"
+            android:hint="quantite "
+            android:inputType="number"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/detail_dialog"
+        android:hint="detail sur le produit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="200dp"/>
+    
+
+</LinearLayout>
