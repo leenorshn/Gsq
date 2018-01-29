@@ -42,6 +42,6 @@ public class AddproduitActivity extends AppCompatActivity implements Description
         nomProduit.setText(produit);
         prixProduit.setText(prix);
         quantiteProduit.setText(quantite);
-        detailProduit.setText(detail);
+        detailProduit.setText(detail );
     }
 }
